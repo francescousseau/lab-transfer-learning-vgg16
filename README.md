@@ -25,7 +25,7 @@ Selecione GPU na opção de Hardware accelerator.
 Instale as dependências necessárias utilizando o pip install tensorflow matplotlib.
 
 2. Baixar e Extrair o Dataset
-Baixe o dataset Cats vs Dogs do URL fornecido e extraia os arquivos para o diretório especificado. Isso pode ser feito utilizando urllib.request e zipfile.
+Baixe o dataset Cats vs Dogs do !URL https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip e extraia os arquivos para o diretório especificado. Isso pode ser feito utilizando urllib.request e zipfile.
 
 3. Treinar o Modelo
 Crie o modelo de Transfer Learning utilizando a arquitetura VGG16 pré-treinada. Congele a base convolucional e adicione novas camadas densas para a classificação. Compile e treine o modelo utilizando os dados de treinamento e validação gerados pelo ImageDataGenerator.
