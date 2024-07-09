@@ -7,8 +7,11 @@ Transfer Learning é uma técnica poderosa onde um modelo pré-treinado em um gr
 
 ## Estrutura do Projeto
 download_dataset.py: Script para baixar e extrair o dataset Cats vs Dogs.
+
 train_model.py: Script para criar, treinar e avaliar o modelo de Transfer Learning.
+
 visualize_results.py: Script para visualizar os resultados do treinamento.
+
 Pré-requisitos
 Python 3.x
 TensorFlow 2.x
@@ -25,7 +28,7 @@ Selecione GPU na opção de Hardware accelerator.
 Instale as dependências necessárias utilizando o pip install tensorflow matplotlib.
 
 2. Baixar e Extrair o Dataset
-Baixe o dataset Cats vs Dogs do !URL https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip e extraia os arquivos para o diretório especificado. Isso pode ser feito utilizando urllib.request e zipfile.
+Baixe o dataset Cats vs Dogs do https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip e extraia os arquivos para o diretório especificado. Isso pode ser feito utilizando urllib.request e zipfile.
 
 3. Treinar o Modelo
 Crie o modelo de Transfer Learning utilizando a arquitetura VGG16 pré-treinada. Congele a base convolucional e adicione novas camadas densas para a classificação. Compile e treine o modelo utilizando os dados de treinamento e validação gerados pelo ImageDataGenerator.
