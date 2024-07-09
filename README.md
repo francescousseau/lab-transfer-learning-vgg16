@@ -14,9 +14,13 @@ visualize_results.py: Script para visualizar os resultados do treinamento.
 
 Pré-requisitos
 Python 3.x
+
 TensorFlow 2.x
+
 Keras
+
 Matplotlib
+
 Ambiente Google Colab com GPU T4
 
 ## Instruções de Execução
